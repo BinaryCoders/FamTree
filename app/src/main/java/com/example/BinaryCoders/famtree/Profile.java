@@ -22,7 +22,7 @@ public class Profile {
     private String relationship;
 
     public Profile(String firstname, String middlename, String lastname, String relationship){
-
+	this.firstname = firstname;
     }
 
     //getters

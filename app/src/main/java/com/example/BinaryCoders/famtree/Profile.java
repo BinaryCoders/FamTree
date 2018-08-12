@@ -53,6 +53,6 @@ public class Profile {
     }
 
     public String ToString(){
-        return format("First Name: {0} Middle Name: {1} Last Name: {2} ",firstname, middlename, lastname);
+        return String.format("First Name: {0} Middle Name: {1} Last Name: {2} ",firstname, middlename, lastname);
     }
 }
